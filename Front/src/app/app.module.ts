@@ -6,9 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './home/header/header.component';
 import { FooterComponent } from './home/footer/footer.component';
-import { SignupComponent } from './signup/signup.component';
-import { MessageComponent } from './signup/message/message.component';
-import { FormComponent } from './signup/form/form.component';
 import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
@@ -17,9 +14,6 @@ import { LoginComponent } from './auth/login/login.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    SignupComponent,
-    MessageComponent,
-    FormComponent,
     LoginComponent
   ],
   imports: [
